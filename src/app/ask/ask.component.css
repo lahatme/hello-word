@@ -1,0 +1,26 @@
+app-details{
+  height: 140px;
+
+}
+app-description{
+  height: 170px;
+
+
+}
+app-project-team{
+  height: 197px;
+  width:100%;
+}
+app-cohort-list{
+  height: 391px;
+  width: 100%;
+
+}
+div{
+  height: 114px;
+  display: grid;
+  width: 95%;
+  margin: auto;
+}
+
+

@@ -1,0 +1,30 @@
+<div>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <div class="titels">QUERY LIST</div>
+
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Type</th>
+      <th scope="col">Creation date</th>
+      <th scope="col">Modified date</th>
+      <th scope="col">Size</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of query_list">
+      <td>{{item.Name}}</td>
+      <td>{{item.Type}}</td>
+      <td>{{item.Creation_date}}</td>
+      <td>{{item.Modified_date}}</td>
+      <td>{{item.Size}}</td>
+    </tr>
+    </tbody>
+  </table>
+
+</div>

@@ -1,0 +1,43 @@
+p{
+  font-family: 'OpenSans-Light', 'Open Sans Light', 'Open Sans';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 28px;
+  color: #284453;
+  float: left;
+  margin-top: 40px;
+  text-align: left;
+}
+
+span{
+  direction: ltr;
+  font-family: 'OpenSans-Regular', 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+
+}
+.ditel{
+  font-size: 12px;
+}
+
+div{
+  display: grid;
+  float: left;
+
+}
+
+#img_name{
+  height:25px ;
+  width:25px ;
+}
+
+#img_shared{
+  height:20px ;
+  width:20px ;
+}
+
+#img_Active{
+  height:15px ;
+  width:15px ;
+}

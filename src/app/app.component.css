@@ -1,0 +1,23 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+#main{
+  display: block;
+
+  border-width: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1440px;
+  height: 1701px;
+  background: inherit;
+  background-color: rgba(216, 219, 244, 0.149019607843137);
+  border: none;
+  border-radius: 0px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+}
+app-ask{
+  width: 100px;
+}

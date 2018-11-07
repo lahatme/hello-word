@@ -1,0 +1,42 @@
+.titels{
+  font-family: 'OpenSans-Light', 'Open Sans Light', 'Open Sans';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  border-bottom: #D8DBF4 5px solid;
+  width: 190px;
+  margin-bottom: 5px;
+}
+
+img{
+  width: 70px;
+  height: 69px;
+  margin-right: 10px;
+
+}
+div{
+  text-align: left;
+}
+
+#team{
+  margin-top: 20px;
+  display: flex;
+}
+.people_ditels{
+  font-family: 'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+  display: grid;
+}
+
+.s_people_ditels {
+  font-family: 'OpenSans-Regular', 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+}
+ .people{
+   display: flex;
+   padding-right: 215px;
+ }

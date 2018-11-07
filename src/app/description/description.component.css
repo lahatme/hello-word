@@ -1,0 +1,21 @@
+.titels{
+  font-family: 'OpenSans-Light', 'Open Sans Light', 'Open Sans';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  border-bottom: #D8DBF4 5px solid;
+  width: 190px;
+  margin-bottom: 5px;
+}
+
+
+div{
+  text-align: left;
+  margin-top: 20px;
+}
+.text{
+  font-family: 'OpenSans-Regular', 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}

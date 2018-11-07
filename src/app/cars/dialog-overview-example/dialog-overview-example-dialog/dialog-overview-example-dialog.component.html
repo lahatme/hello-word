@@ -1,0 +1,15 @@
+<div class="b">
+  <div mat-dialog-content >
+    <p>project name:</p>
+    <textarea cols="75" matInput #nameTitel ></textarea>
+
+    <p>description:</p>
+    <textarea cols="75" matInput #description ></textarea>
+
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">No Thanks</button>
+    <button mat-button [mat-dialog-close]="data.description+'|'+data.name" cdkFocusInitial (click)="doThis(nameTitel,description)">Ok</button>
+
+  </div>
+</div>
