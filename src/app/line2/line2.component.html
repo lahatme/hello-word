@@ -5,12 +5,13 @@
   <ul class="timeline" id="timeline">
     <li class="li complete">
 
-      <div id="1" (click)="ToggleComplete()" class="status">
+
+      <div id="1" (click)="ToggleComplete()" [routerLink]="['/cars']" class="status">
         <h4> ASK </h4>
       </div>
     </li>
     <li class="li ">
-      <div id="2" (click)="ToggleComplete()" class="status" >
+      <div id="2" (click)="ToggleComplete()" [routerLink]="['/home']" class="status" >
         <h4> MANAGE </h4>
       </div>
     </li>

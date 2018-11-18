@@ -1,3 +1,8 @@
-<p>
-  <app-ask></app-ask>
-</p>
+
+<div id="theList">
+  <h2>The list</h2>
+  <table class="table table-striped">
+    <tr *ngFor="let item of list"><td>{{item.Name}}</td>  <td> {{item.Gender}} </td>  <td>{{item._Reference_Event_Age_at_event}}</td><td>{{item.Creatinine}}</td><td>{{item.Last_eGFR}}</td><td>{{item.previous_CKD_stage}}</td><td>{{item.Last_CKD_stage}}</td><td>{{item.CKD_Change}}</td><td>{{item.Diabetes_Diagnosis}}</td><td>{{item.hypertension}}</td><td>{{item.Last_systolic_BP_Result_Numeric}}</td></tr>
+  </table>
+</div>
+

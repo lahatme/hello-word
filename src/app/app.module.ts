@@ -23,6 +23,9 @@ import { DialogOverviewExampleDialogComponent } from './cars/dialog-overview-exa
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import {ServiceService} from './service.service';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 
 
@@ -60,7 +63,14 @@ import {ServiceService} from './service.service';
     MatDialogModule,
     FormsModule,
     ReactiveFormsModule,
-    ],
+    HttpClientModule,
+
+
+  ],
+  exports: [
+
+
+  ],
   providers: [ServiceService],
   bootstrap: [AppComponent]
 })

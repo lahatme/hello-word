@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Patient} from '../patient';
+import {ServiceService} from '../service.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  list: Patient[];
 
-  ngOnInit() {
+
+  constructor(private carService: ServiceService) {
   }
+
+  ngOnInit(): void {
+    this.carService.getPatients().subscribe((data: any[]) => {
+      this.list = (data);
+
+    });
+
+  }
+
+
+
 
 }
